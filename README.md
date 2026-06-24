@@ -1,20 +1,37 @@
-<<<<<<< HEAD
-# sandyh-dev12
-=======
-# flutter_app2
+# Restaurant Finder
 
-A new Flutter project.
+Restaurant Finder — мобильное приложение для поиска ресторанов в Алматы.  
+Проект создан как pet project на Flutter с использованием Firebase.
 
-## Getting Started
+## 📱 Описание проекта
 
-This project is a starting point for a Flutter application.
+Приложение помогает пользователям находить рестораны в городе Алматы, просматривать информацию о заведениях, добавлять понравившиеся рестораны в избранное, а также использовать карту для поиска мест поблизости.
 
-A few resources to get you started if this is your first Flutter project:
+Проект демонстрирует работу с авторизацией, базой данных, профилем пользователя и интеграцией карты в мобильном приложении.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Основные функции
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 80649c2 (Initial commit)
+- Регистрация и авторизация пользователей
+- Поиск ресторанов
+- Просмотр списка ресторанов
+- Страница с подробной информацией о ресторане
+- Добавление ресторанов в избранное
+- Профиль пользователя
+- Карта с расположением ресторанов
+- Хранение данных в Firebase Firestore
+- Работа с Firebase Authentication
+
+## 🛠️ Технологии
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage / хранение данных
+- Google Maps / карта
+- Material Design
+
+
+├── services/
+├── widgets/
+└── utils/
